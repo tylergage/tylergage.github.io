@@ -13,9 +13,10 @@ body, html {
 }
 h1 {
     color: white;
-    font-size: 6vh; /* Font size is 5% of the viewport height */
+    font-size: 4vh; /* Font size is 5% of the viewport height */
     margin: 2vh; /* Remove default margin */
     font-family: 'Montserrat', sans-serif;
+    z-index: 1001; /* Ensure it appears above other content */
 }
 
 .overlay {
@@ -48,11 +49,31 @@ h1 {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow: ellipsis; /* Add ellipsis if text is too long */
+    max-width: 100%; /* Ensure the butt
 }
 .button:hover {
     background-color: #86A789; /* Darker shade on hover */
 }
 .button:active {
     background-color: #12372A; /* Even darker shade on click */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .button {
+        padding: 16px 24px;
+        font-size: 18px;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .button {
+        padding: 16px 8px;
+        font-size: 14px;
+    }
 }
 
