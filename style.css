@@ -61,8 +61,41 @@ body, html {
 
 .hero{
     grid-column:span 2;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
     width: 100%;
+}
+
+.hero-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:chocolate;
+    width: fit-content;
+}
+
+.hero-header
+{
+    background-color: antiquewhite;
+}
+
+.hero-subheader
+{
+    background-color: aqua;
+}
+
+.chat-button
+{
+    background-color:aquamarine;
+}
+
+.crisis-cta
+{
+    background-color: bisque;
+    text-align: center;
 }
 
 .footer{
