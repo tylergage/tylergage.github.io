@@ -1,4 +1,8 @@
-document.getElementById('firstStepButton').addEventListener('click', function() {
+document.getElementById('chat-button').addEventListener('click', function() {
+  Intercom('show');
+});
+
+document.getElementById('chat-nav').addEventListener('click', function() {
   Intercom('show');
 });
 
