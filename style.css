@@ -64,7 +64,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    /* background-color: beige; */
     width: 100%;
 }
 
@@ -73,29 +73,84 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:chocolate;
+    /* background-color:chocolate; */
     width: fit-content;
 }
 
 .hero-header
 {
-    background-color: antiquewhite;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40;
+    font-weight: 600;
+    font-style:normal;
+    text-decoration: none;
+    color: #55AD9B;
+    margin: 10px 0px;
+    /* background-color: antiquewhite; */
 }
 
 .hero-subheader
 {
-    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-size: 28;
+    font-style:normal;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 20px 0px;
+    color: #95D2B3;
+
+    /* background-color: aqua; */
 }
 
-.chat-button
-{
-    background-color:aquamarine;
+.chat-now-button {
+    /* Basic button styling */
+    padding: 40px;
+    border: 4px solid #95D2B3;
+    cursor: pointer;
+    
+    /* Solid color background */
+    background-color: #55AD9B; /* Change this to your desired color */
+    
+    /* Rounded corners */
+    border-radius: 30px; /* Adjust this value to increase or decrease corner radius */
+    
+    /* Text color */
+    color: #F1F8E8;
+    
+    /* Optional: add transition for smooth effect */
+    transition: background-color 0.3s ease;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 36;
+    font-weight: 600;
+    font-style:normal;
+    text-decoration: none;
+}
+
+/* Hover state */
+.chat-now-button:hover {
+    background-color: #95D2B3;; /* Darker shade for hover */
+}
+
+/* Active (pressed) state */
+.chat-now-button:active {
+    background-color: #D8EFD3; /* Even darker shade for pressed state */
 }
 
 .crisis-cta
 {
-    background-color: bisque;
+    /* background-color: bisque; */
     text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #55AD9B;
 }
 
 .footer{
