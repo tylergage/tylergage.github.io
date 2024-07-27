@@ -12,28 +12,33 @@
 
     <body>
         <div class="grid-container">
-                <div class="nav-left">
-                    <img src="assets/logo.png" class="logo">
-                </div>
 
-                <div class="nav-right">
-                    <a class="nav-option" id="chat-nav" href="#">Chat Now</a>
-                    <a class="nav-option" href="#">About</a>
-                    <a class="nav-option" href="#">Contact</a>
-                </div>
+            <nav class="navbar">
+                <div class="brand"><img src="assets/logo.png" class="logo"> </div>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-link"><a href="#">Chat Now</a></li>
+                    <li class="nav-link"><a href="#">About</a></li>
+                    <li class="nav-link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
-                <div class="hero">
-                    <div class="hero-container">
-                        <p class="hero-header">We believe in you</p>
-                        <p class="hero-subheader">Peer support is evidence-based healthcare to help start your journey in recovery, no matter where you are</p>
-                        <button id="chat-button" class="chat-now-button">Chat with a Peer Now</button>
-                        <p class="crisis-cta">If you're experiencing a mental health crisis, please call 988</p>
-                    </div>
+            <div class="hero">
+                <div class="hero-container">
+                    <p class="hero-header">We believe in you</p>
+                    <p class="hero-subheader">Peer support is evidence-based healthcare to help start your journey in recovery, no matter where you are</p>
+                    <button id="chat-button" class="chat-now-button">Chat with a Peer Now</button>
+                    <p class="crisis-cta">If you're experiencing a mental health crisis, please call 988</p>
                 </div>
+            </div>
 
-                <div class="footer">
-                    <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
-                </div>
+            <div class="footer">
+                <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
+            </div>
         </div>
         <script src="index.js"></script>
     </body>

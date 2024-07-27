@@ -1,3 +1,16 @@
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}));
+
 document.getElementById('chat-button').addEventListener('click', function() {
   Intercom('show');
 });
@@ -6,13 +19,9 @@ document.getElementById('chat-nav').addEventListener('click', function() {
   Intercom('show');
 });
 
-//Insert Basic JS code here
-//Set your APP_ID
+
+// Intercom code
 var APP_ID = "jnaiconv";
-
-// Set Show Event to be false initiall
-var SHOW_EVENT = false;
-
 window.intercomSettings = {
     app_id: APP_ID
   };
@@ -25,10 +34,3 @@ s.src='https://widget.intercom.io/widget/' + APP_ID;
 var x=d.getElementsByTagName('script')
 [0];x.parentNode.insertBefore(s,x);}if(w.attachEvent)
 {w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
-
-
-function messenger(display) {
-  //Insert sign out code here
-  Intercom(display)
-  return(true) //check to see if code was correctly copied
-}
