@@ -96,7 +96,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 
 .contact-header
@@ -107,7 +107,6 @@ body, html {
     font-weight: 600;
     font-style:normal;
     text-decoration: none;
-    /* align-self: center; */
     color: #55AD9B;
 }
 
@@ -207,6 +206,7 @@ body, html {
       }
 
       .contact-container{
+        width: 90%;
         margin-left: 5%;
         margin-right: 5%;
       }
