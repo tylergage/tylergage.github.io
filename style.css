@@ -120,14 +120,14 @@ body, html {
 
 .hero-subheader
 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 28;
     font-style:normal;
     font-weight: 300;
     text-decoration: none;
     margin: 20px 0px;
-    color: #95D2B3;
+    color: #55AD9B;
 }
 
 .chat-now-button {
@@ -233,6 +233,11 @@ body, html {
       .hamburger {
         display: block;
         justify-self: end;
+      }
+
+      .hero{
+        align-items: flex-start;
+        margin-top: 60px;
       }
 
     .hero-container
