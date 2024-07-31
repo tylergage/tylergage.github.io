@@ -7,36 +7,23 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
         <title>One Small Step</title>
         <link rel="icon" href="assets/shoe.png" type="image/png">
-        <link rel="stylesheet" href="contact-style.css">
+        <link rel="stylesheet" href="css/contact-style.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
     </head>
 
     <body>
         <div class="grid-container">
-
-            <nav class="navbar">
-                <a href="index.html"><div class="brand"><img src="assets/logo.png" class="logo"> </div></a>
-                <button class="hamburger" aria-label="Toggle menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-                <ul class="nav-menu">
-                    <li class="nav-link" id="chat-nav"><a href="#">Chat Now</a></li>
-                    <li class="nav-link"><a href="about.html">About Us</a></li>
-                    <li class="nav-link"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
+            <div id="navbar-placeholder"></div>
             <div class="contact-container">
                 <p class="contact-header">Contact</p>
                 <p class="contact-content">Please reach out regarding any questions, concerns, or feedback.</p>
                 <p class="contact-email">contact@onesmallstep.io</p>
             </div>
-            
-            <div class="footer">
-                <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
-            </div>
+            <div id="footer-placeholder"></div>
         </div>
-        <script src="about.js"></script>
+        <script src="js/intercom.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/footer.js"></script>
     </body>
 </html>
