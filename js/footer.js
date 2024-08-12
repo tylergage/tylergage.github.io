@@ -7,8 +7,12 @@ function createFooter() {
             <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
         </div>
         <div class="footer-links">
-            <p class="terms-and-conditions">Terms and Conditions</p>
-            <p class="privacy-policy">Privacy Policy</p>
+            <a href="terms-and-conditions.html">
+                <p id="terms-and-conditions">Terms and Conditions</p>
+            </a>
+            <a href="privacy-policy.html">
+                <p id="privacy-policy">Privacy Policy</p>
+            </a>
         </div>
     </div>
     `;
