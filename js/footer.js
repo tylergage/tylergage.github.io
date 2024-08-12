@@ -3,7 +3,13 @@ function createFooter() {
     // Add html for footer, this is source of truth for footer content
     const footer = `
     <div class="footer">
-        <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
+        <div class="footer-copyright">
+            <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
+        </div>
+        <div class="footer-links">
+            <p class="terms-and-conditions">Terms and Conditions</p>
+            <p class="privacy-policy">Privacy Policy</p>
+        </div>
     </div>
     `;
   
