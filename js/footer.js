@@ -4,7 +4,7 @@ function createFooter() {
     const footer = `
     <div class="footer">
         <div class="footer-copyright">
-            <p class="copyright">Copyright © 2024 One Small Step, Inc.</p>
+            <p class="copyright">Copyright © 2024 Small Step, Inc.</p>
         </div>
         <div class="footer-links">
             <a href="terms-and-conditions.html">
