@@ -1,5 +1,4 @@
 .navbar {
-    /* grid-column:span 2; */
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
