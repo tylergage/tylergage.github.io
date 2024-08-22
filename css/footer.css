@@ -69,6 +69,26 @@
     color: #D8EFD3;
 }
 
+#notice-of-privacy-practices
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    color: #95D2B3;
+    margin: 16px;
+}
+
+#notice-of-privacy-practices:hover {
+    color: #55AD9B;
+}
+  
+#notice-of-privacy-practices:active {
+    color: #D8EFD3;
+}
+
 @media screen and (max-width: 850px) 
 {
     .footer 
@@ -96,6 +116,12 @@
     }
 
     #privacy-policy
+    {
+        font-size: 12;
+        margin: 12;
+    }
+
+    #notice-of-privacy-practices
     {
         font-size: 12;
         margin: 12;

@@ -13,6 +13,9 @@ function createFooter() {
             <a href="privacy-policy.html">
                 <p id="privacy-policy">Privacy Policy</p>
             </a>
+            <a href="notice-of-privacy-practices.html">
+                <p id="notice-of-privacy-practices">Notice of Privacy Practices</p>
+            </a>
         </div>
     </div>
     `;

@@ -1,0 +1,136 @@
+body
+{
+    background-color: #ffffff;
+}
+
+body, html 
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 5px;
+}
+
+#navbar-placeholder
+{
+    grid-column:span 2;
+}
+
+#footer-placeholder
+{
+    grid-column:span 2;
+}
+
+.notice-of-privacy-practices-container
+{
+    grid-column:span 2;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.notice-of-privacy-practices-header
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    align-self: center;
+    font-size: 40;
+    font-weight: 600;
+    font-style:normal;
+    text-decoration: none;
+    color: #55AD9B;
+}
+
+.notice-of-privacy-practices-subheader
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24;
+    font-weight: 600;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+    color: #55AD9B;
+}
+
+.notice-of-privacy-practices-subheader-item
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24;
+    font-weight: 500;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+    color: #55AD9B;
+}
+
+.notice-of-privacy-practices-list li
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24;
+    font-weight: 200;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+    color: #55AD9B;
+}
+
+.notice-of-privacy-practices-content
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24;
+    font-weight: 200;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+    color: #55AD9B;
+}
+
+@media screen and (max-width: 850px) 
+{
+    .notice-of-privacy-practices-container
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .notice-of-privacy-practices-header
+    {
+        font-size: 18;
+    }
+
+    .notice-of-privacy-practices-subheader
+    {
+        font-size: 16;
+    }
+
+    .notice-of-privacy-practices-subheader-item
+    {
+        font-size: 16;
+    }
+
+    .notice-of-privacy-practices-list li
+    {
+        font-size: 16;
+    }
+
+    .notice-of-privacy-practices-content
+    {
+        font-size: 16;
+    }
+}
